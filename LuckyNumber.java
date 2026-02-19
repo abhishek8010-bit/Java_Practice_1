@@ -9,9 +9,7 @@ public class LuckyNumber {
         int a = n / 100;
         int b = n/10 %10;
         int c = n % 10;
-        System.out.println(a);
-        System.out.println(b);
-        System.out.println(c);
+        
 
         if (x < 100 || x > 1000) {
             System.out.println("Invaild Input");
