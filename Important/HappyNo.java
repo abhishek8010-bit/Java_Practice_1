@@ -9,7 +9,6 @@ public class HappyNo {
 
         while(temp > 9){
             int sum = 0;
-           // int n1 = sc.nextInt();
             while (temp > 0) {
                 int a = temp % 10;
                 sum += a * a;
